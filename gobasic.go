@@ -1,11 +1,10 @@
 package main
-
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func main () {
 
 	//print stmt
 	fmt.Println("Go programming welcomes you")
@@ -51,6 +50,7 @@ func main() {
 
 	const n = 60
 	fmt.Println(math.Cos(n))
+	fmt.Println(math.Pow(n,2))
 
 	//if stmt
 	//Example 1
